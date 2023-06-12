@@ -1,0 +1,44 @@
+
+.form-container {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .proceed {
+    margin-top: 40px;
+    display: grid;
+    height: 250px;
+    width: 75vw;
+    grid-row-gap: 30px;
+    align-items: center;
+    text-align: left;
+    font-size: 1rem;
+  }
+  
+  .proceed h4 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .radio {
+    height: 30px;
+  }
+  .radio input {
+    height: 15px;
+    width: 15px;
+  }
+  
+  .total-amount1 {
+    margin-top: 150px;
+    text-align: left;
+    margin-bottom: 90px;
+  }
+  
+  .total-amount1 h1{
+    color: var(--color);
+  }
+  
+  .proceed button {
+    margin: 30px auto;
+  }

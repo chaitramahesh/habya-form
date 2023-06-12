@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habya Registration Form</title>
+    <!-- <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+    rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="../common-styles.css" />
+    <link rel="stylesheet" href="../create-event/create-event.css" />
+    <script
+      src="https://kit.fontawesome.com/256da236a1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--create event page-->
+    <div class="container">
+      <nav>
+        <div class="nav-bar1">
+          <a href="#nav-drop-down"><i class="fa-thin fa-bars"></i></a>
+          <h3>Event Registration</h3>
+          <a href="#profile-drop-down"
+            ><i class="fa-light fa-2x fa-user"></i
+          ></a>
+        </div>
+      </nav>
+
+      <form action="">
+        <div class="create-event">
+          <label for="category">Category</label>
+          <select name="category" id="category" required>
+            <option value="">Men's/Women's/Kids</option>
+            <option value="men">Men's</option>
+            <option value="women">Women's</option>
+            <option value="kids">Kids</option>
+            <option value="mixed">Mixed Doubles</option>
+            <option value="open">Open (Above 16)</option>
+          </select>
+          <label for="event">Event</label>
+          <select name="event" id="event" required>
+            <option value="">Single's/Double's/Mixed</option>
+            <option value="m-singles">Men's Singles</option>
+            <option value="m-doubles">Men's Doubles</option>
+            <option value="m-30-50">Men's 30-50</option>
+            <option value="m-50-above">Men's 50 and above</option>
+          </select>
+          <label for="contact-number">Contact Number</label>
+          <input
+            type="number"
+            name="number"
+            id="contact-number"
+            placeholder="99999 00000"
+            required
+          />
+          <label for="partner-number">Partner Contact Number</label>
+          <input
+            type="number"
+            name="p-number"
+            id="partner-number"
+            placeholder="Number"
+            required
+          />
+        </div>
+        <button class="habya-btn" type="submit" value="create-event">
+          <a href="../event-details/event-details.html">Create Event</a>
+        </button>
+      </form>
+    </div>
+    <!--end create event page-->
+
+    <div class="nav-drop-down" id="nav-drop-down">
+      <ul>
+        <li><a href="./create-event.html">Create Event</a></li>
+        <li>Tournament Details/Rules & Regulations</li>
+        <li>Sponsorship</li>
+        <li>Promoters</li>
+        <li>Contact</li>
+        <li>Log Out</li>
+      </ul>
+    </div>
+    <div class="profile-drop-down" id="profile-drop-down">
+      <ul>
+        <li><a href="./profile-details.html">Edit Profile</a></li>
+        <li><a href="./acknowledgement.html"> Acknowledgement</a></li>
+        <li><a href="./event-details.html"> Your Events</a></li>
+        <li><a href="./payment-gateway.html">Payment Gateway</a></li>
+      </ul>
+    </div>
+  </body>
+</html>

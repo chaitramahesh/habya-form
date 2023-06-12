@@ -1,0 +1,19 @@
+
+.create-profile {
+    margin: 40px auto;
+    display: grid;
+    width: 100%;
+    grid-row-gap: 20px;
+    align-items: center;
+    justify-items: left;
+    justify-content: center;
+  }
+
+  .create-profile input:nth-child(8) {
+    width: 18vw;
+    height: 18vw;
+    background-color: rgb(224, 217, 217);
+    margin-bottom: 35px;
+    margin-left: 5px;
+    padding-left: 0;
+  }

@@ -1,0 +1,55 @@
+
+.make-payment {
+    display: grid;
+    margin: 40px auto;
+    grid-row-gap: 20px;
+    align-items: center;
+    justify-items: left;
+    justify-content: center;
+  }
+  
+  .make-payment h4 {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .total-amount {
+    text-align: center;
+    margin: 50px auto;
+  }
+  
+  .total-amount h4 {
+    margin-bottom: 10px;
+  }
+  
+  .category {
+    display: flex;
+    width: 80vw;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid gray;
+    padding: 0 20px;
+    margin-top: 10px;
+    font-size: 1rem;
+    justify-items: center;
+  }
+  .category h5 {
+    font-size: 1rem;
+  }
+  
+  .category p {
+    color: var(--color);
+    font-weight: 600;
+  }
+  
+  #add-event-btn {
+    margin: 50px auto;
+    width: 140px;
+    height: 50px;
+    font-size: 1rem;
+  }
+
+  .total-amount h1 {
+    color: var(--color);
+  }
