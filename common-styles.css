@@ -25,7 +25,7 @@ body {
 
 .habya-btn {
   position: absolute;
-  bottom: 5vh;
+  bottom: 10vh;
   left: calc(50vw - 75px);
   width: 150px;
   height: 45px;
