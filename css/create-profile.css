@@ -10,8 +10,8 @@
   }
 
   .create-profile input:nth-child(8) {
-    width: 18vw;
-    height: 18vw;
+    width: 20vw;
+    height: 20vw;
     background-color: rgb(224, 217, 217);
     margin-bottom: 35px;
     margin-left: 5px;

@@ -2,7 +2,7 @@
 .make-payment {
     display: grid;
     margin: 40px auto;
-    grid-row-gap: 20px;
+    grid-row-gap: 15px;
     align-items: center;
     justify-items: left;
     justify-content: center;
@@ -15,7 +15,7 @@
   
   .total-amount {
     text-align: center;
-    margin: 50px auto;
+    margin: 30px auto;
   }
   
   .total-amount h4 {
@@ -44,7 +44,7 @@
   }
   
   #add-event-btn {
-    margin: 40px auto;
+    margin: 20px auto;
     width: 140px;
     height: 50px;
     font-size: 1rem;
