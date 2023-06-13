@@ -30,7 +30,7 @@
   }
   
   .total-amount1 {
-    margin-top: 150px;
+    margin-top: 8%;
     text-align: left;
     margin-bottom: 90px;
   }
@@ -40,5 +40,5 @@
   }
   
   .proceed button {
-    margin: 30px auto;
+    margin: 10px auto;
   }
