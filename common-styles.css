@@ -10,7 +10,7 @@
 
 body {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   margin: 0 auto;
 }
 
@@ -107,19 +107,6 @@ select {
   padding-right: 15px;
 }
 
-.Congratulations {
-  margin: 70px auto;
-}
 
-.Congratulations h3 {
-  color: var(--color);
-  font-weight: 800;
-  font-size: 1.3rem;
-}
-
-.Congratulations p {
-  margin: 30px auto;
-  font-size: 1.1rem;
-}
 
 

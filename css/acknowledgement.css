@@ -1,0 +1,15 @@
+
+.Congratulations {
+    margin: 70px auto;
+  }
+  
+  .Congratulations h3 {
+    color: var(--color);
+    font-weight: 800;
+    font-size: 1.3rem;
+  }
+  
+  .Congratulations p {
+    margin: 30px auto;
+    font-size: 1.1rem;
+  }
