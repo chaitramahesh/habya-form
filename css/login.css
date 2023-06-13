@@ -1,7 +1,7 @@
 
 
 .habya-logo {
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
     padding-bottom: 20px;
     font-weight: 400;
@@ -9,7 +9,7 @@
   }
   
   .habya-logo img {
-    margin-top: 20px;
+    margin-top: 10px;
     width: max(18vw, 140px);
     height: max(15vw, 140px);
   }
