@@ -85,12 +85,12 @@ body {
 
 label {
   text-transform: capitalize;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-left: 2px;
 }
 
 input {
-  height: 50px;
+  height: 55px;
   width: 80vw;
   margin-top: -13px;
   padding-left: 15px;
@@ -102,7 +102,7 @@ input::-webkit-inner-spin-button {
 }
 
 select {
-  height: 50px;
+  height: 55px;
   width: 80vw;
   margin-top: -13px;
   margin-left: 2px;
